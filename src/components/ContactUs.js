@@ -7,17 +7,34 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me for any work or suggestions below
+                  It’s hard enough to find an error in your code when you’re looking for it; its even harder when you’ve ASSUMED your code is ERROR-FREE.
               </p>
+                <p>
+                    - Steve McConnell
+                </p>
             </div>
           </div>
           <div className="row">
             <aside className="eigth columns footer-widgets">
+                <h2 style={{color:"white"}}>Contact</h2>
               <div className="widget">
-                <h4>Linked in :
+                  <span style={{color:"green"}}>LinkedIn :</span>
+                  <span>
                   {resumeData.linkedinId}
-                </h4>
+                 </span>
               </div>
+                <div className="widget">
+                    <span style={{color:"green"}} >Gmail :</span>
+                    <span>
+                        {resumeData.Gmail}
+                    </span>
+                </div>
+                <div className="widget">
+                    <span style={{color:"green"}}>Mobile Number :</span>
+                    <span>
+                        {resumeData.Mobile}
+                    </span>
+                </div>
             </aside>
           </div>
         </section>
