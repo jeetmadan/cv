@@ -1,8 +1,8 @@
 {
-  "name": "me",
+  "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jeetmadan.github.io/me/",
+  "homepage": "https://jeetmadan.github.io/cv/",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.6.0",
