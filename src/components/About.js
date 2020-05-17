@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../components/circle-cropped.png';
+// import logo from '../components/circle-cropped.png';
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -9,7 +9,7 @@ export default class About extends Component {
 
             <div className="three columns">
 
-               <img className="profile-pic"  src={logo} alt="" />
+               <img style={{height:'150px',width:'150px'}}  src="https://drive.google.com/uc?export=view&id=10cQdq8reSyrJ2GbjvHjEuUdgN3H2dltw" alt="" />
 
             </div>
 
@@ -21,23 +21,6 @@ export default class About extends Component {
                  resumeData.aboutme
                }
                </p>
-
-               {/*<div className="row">*/}
-
-               {/*   <div className="columns contact-details">*/}
-
-               {/*   <h2>Contact Details</h2>*/}
-               {/*   <p className="address">*/}
-       		{/*				<span>{resumeData.name}</span>*/}
-               {/*      <br></br>*/}
-       		{/*				   <span>*/}
-               {/*      {resumeData.address}*/}
-               {/*     </span>*/}
-               {/*     <br></br>*/}
-               {/*     <span>{resumeData.website}</span>*/}
-       		{/*			   </p>*/}
-               {/*   </div>*/}
-               {/*</div>*/}
             </div>
          </div>
       </section>

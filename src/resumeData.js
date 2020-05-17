@@ -104,24 +104,35 @@ let resumeData = {
         }
 
     ],
-    "portfolio":[
-      // {
-      //   "name":"Dictionary",
-      //     "description":"i). Implemented Dictionary Using Trie Data Structure. \n" +
-      //         "\n" +"i). If you didnot complete any course then you can add that course in TODO list. \n" +
-      //
-      // },
-      {
-        "name":"TODO",
+
         "description":"Project helps in storing list of Todo courses.This System has following properties: \n" +
             "\n" +"i). If you didnot complete any course then you can add that course in TODO list. \n" +
             "\n" +"ii). If you want to update anything about the course then you can update it. \n"+
             "\n" +"iii). As you completed the course , you can remove that course from TODO list. \n"+
-            "\n" +"It helps in tracking about the courses means that course is completed by the person or not.If the course has been completed by person then it will be removed from Todo list. \n",
+            "\n" +"iv). It helps in tracking about the courses means that course is completed by the person or not.If the course has been completed by person then it will be removed from Todo list. \n",
 
-        "imgurl":"https://drive.google.com/uc?export=view&id=1fcPvkn_XPV358aJZYCC64BUqhV9XFWAz"
-      }
-    ]
-  }
+       "description1":"Migrating the following services of Traum-Ferienwohnungen’s Online Advertisement website: \n" +
+        "\n" +"i).Migrating the Invoice and Payment section of Traum-Ferienwohnungen’s Online Advertisement module from PHP to JAVA. \n" +
+        "\n" +"ii). Converting the pipeline of Traum-Ferienwohnungen’s \"online marketplace, holiday rental and vacationers\", from monolith to microlith, to ensure the proper functionality\n" +
+           "                                of the platform and increasing the robustness. \n",
+    "description2":"The system offers following functionalities: \n" +
+        "\n" +"i). Onboarding of a new property for a user. \n" +
+        "\n" +"ii).  Fetching the list of all properties tagged to a particular user. \n"+
+        "\n" +"iii). Fetching and updating the details of a particular\n" +
+        "                                property tagged to a particular user. \n"+
+        "\n" +"iv). It helps in tracking the properties details which had given by HomeOwner or HomeAgency to OYO ROOMS. \n",
+    "description3":"Added the following Services to Traum-Ferienwohnungen’s Online Advertisement website: \n" +
+        "\n" +"i). Registered and opted-in via mail then set to be marked as ‘verified’ and mark as a green tick on the customer's name .Otherwise, set to be marked as 'unverified' and mark as a red cross on the customer's name.\n" +
+        "\n" +"ii). All existing paid homeowners or Agency to be marked as ‘verified’ by default. This is because paid homeowners automatically provide their consent via payment. \n",
+
+    "description4":"The system offers following functionalities: \n" +
+        "\n" +"i). The Attendence is automated using Face Recogination.\n" +
+        "\n" +"ii). The picture is clicked during the class.\n" +
+        "\n" +"iii). Students whose faces are identified in the picture are marked as present and notified by mail.\n"+
+       "\n"+"iv). Timely notifications are sent to their guardian who are absent on a regular basis.\n",
+    "description5":"Dictionary offers following functionalities: \n" +
+        "\n" +"i). Implemented Dictionary Using Trie Data Structure.\n" +
+        "\n" +"ii). The aim of the project was to implement all functionalities of a dictionary including insertion, deletion, updation and searching of words.\n"
+}
   
   export default resumeData
