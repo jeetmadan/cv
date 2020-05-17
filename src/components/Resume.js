@@ -22,8 +22,9 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date"> {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
+                          <p className="info">
+                              {item.marks}
+                              <span>&bull;</span> <em className="date"> {item.Achievements}</em>
                           </p>
                        </div>
                     </div>
@@ -70,7 +71,9 @@ export default  class Resume extends Component {
                           return(
                               <div className="row item">
                                   <div className="twelve columns">
+                                      <p className="info">
                                       <span>&bull;</span> <em> {item.skillname}</em>
+                                      </p>
                                   </div>
 
                               </div>
@@ -84,7 +87,7 @@ export default  class Resume extends Component {
               <div className="three columns header-col">
                   <h1><span>Download CV</span></h1>
               </div>
-
+              <p className="info">
               <div className="nine columns main-col">
                   {
                       <a href={"https://drive.google.com/file/d/1AtQX3xqco0sIKQiiw0bjCtO8rlM18JOY/preview"}
@@ -93,6 +96,7 @@ export default  class Resume extends Component {
                       </a>
                   }
               </div>
+              </p>
           </div>
 
       </section>

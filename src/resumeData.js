@@ -48,18 +48,21 @@ let resumeData = {
         "UniversityName":"Thapar Institute of Engineering and Technology",
         "specialization":"B.E",
         "YearOfPassing":"2016 - 2020",
+          "marks":"Grade",
         "Achievements":"8.66 CGPA"
       },
       {
         "UniversityName":"Doon Senior Secondary School",
         "specialization":"Senior Scondary School",
         "YearOfPassing":"2013 - 2015",
+          "marks":"Grade",
         "Achievements":"89.2%"
       },
         {
             "UniversityName":"St. Xavier's Jr./Sr. School",
             "specialization":"Scondary School",
             "YearOfPassing":"2012 - 2013",
+            "marks":"Grade",
             "Achievements":"10 CGPA"
         }
     ],
@@ -73,36 +76,8 @@ let resumeData = {
     ],
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5 , CSS , Reactjs , Bootstrap , SpringBoot , PHP , Laravel , JavaScript , TypeScript , Kafka"
       },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      },
-        {
-            "skillname":"Bootstrap"
-        },
-        {
-            "skillname":"SpringBoot"
-        },
-        {
-            "skillname":"PHP"
-        },
-        {
-            "skillname":"Laravel"
-        },
-        {
-            "skillname":"JavaScript"
-        },
-        {
-            "skillname":"TypeScript"
-        },
-        {
-            "skillname":"Kafka"
-        }
-
     ],
 
         "description":"Project helps in storing list of Todo courses.This System has following properties: \n" +
