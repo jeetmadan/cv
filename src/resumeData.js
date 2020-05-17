@@ -42,7 +42,7 @@ let resumeData = {
         "\n" +
         "                            I love fantasy.. I always dream about the powers and out of the world things that would help me make a situation easy.\n" +
         "\n" +
-        "                            I have been doing my B.E. in Computer Science  from Thapar Institute of Engineering and Technology",
+        "                            I have been doing my B.E. in Computer Science  from Thapar Institute of Engineering and Technology.",
     "education":[
       {
         "UniversityName":"Thapar Institute of Engineering and Technology",
@@ -70,8 +70,7 @@ let resumeData = {
       {
         "CompanyName":"OYO ROOMS",
         "specialization":"Software Developer Engineer",
-        "MonthOfJoining":"Jan",
-        "YearOfJoining":"2020 - present"
+        "YearOfJoining":"Jan 2020 - present"
       }
     ],
     "skills":[
